@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  padding: 8px;
+  line-height: 1.9;
+}
+
+/* Copy the following code to Blogger */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.toc-container {
+  max-width: 600px;
+  font-family: "Roboto", sans-serif;
+  background: #deff9d;
+  border-radius: 8px;
+  box-shadow: 0 4px 11px rgba(0, 0, 0, 0.6);
+}
+
+.toc-container h2.index-heading {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0 16px;
+  padding-top: 16px;
+}
+
+.table-of-contents {
+  list-style: none;
+  padding: 0;
+}
+
+.table-of-contents li {
+  background: #222;
+  transition: 400ms;
+}
+
+.table-of-contents li:nth-of-type(even) {
+  background: #2e2e2e;
+}
+
+.table-of-contents li:hover {
+  background: #000;
+}
+
+.table-of-contents li a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 24px;
+  padding: 16px 0;
+  display: block;
+}
